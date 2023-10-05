@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import Chart from "chart.js/auto";
+import Chart from "chart.js/auto";
 import { Line } from "react-chartjs-2";
 import realAssistIcon from './assets/realAssist_icon.PNG'
 import crimeIcon from './assets/crime_icon.PNG'
@@ -51,7 +51,7 @@ const GraphComponent = () => {
     }
   };
   return (
-    <div className="flex flex-col justify-between w-full p-4" id='graph'>
+    <div className="h-[100vh] flex flex-col justify-between w-full p-4" id='graph'>
       <div className="flex items-center justify-between">
         <div className="flex space-x-2 items-center">
           <img alt='' src={realAssistIcon} />
@@ -70,7 +70,7 @@ const GraphComponent = () => {
       </div>
       <div className="mt-8 flex items-center justify-between space-x-4">
         <div className="flex space-x-2 items-center">
-          <img alt=''  src={crimeIcon} />
+          <img alt='' src={crimeIcon} />
           <span>Crime</span>
         </div>
         <div className="w-full h-[3px] bg-gradient-to-r from-[#005DFF] to-[#21DDFF]"></div>
