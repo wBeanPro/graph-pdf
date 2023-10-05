@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Chart from "chart.js/auto";
+// import Chart from "chart.js/auto";
 import { Line } from "react-chartjs-2";
 import realAssistIcon from './assets/realAssist_icon.PNG'
 import crimeIcon from './assets/crime_icon.PNG'
