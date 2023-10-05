@@ -34,7 +34,7 @@ const PDFGenerator = () => {
     <div className='h-[100vh] flex flex-col items-center justify-center'>
         <GraphComponent />
         <div className='px-4 py-2 cursor-pointer rounded-xl bg-[#090E24] flex items-center space-x-2' onClick={handleGeneratePDF}>
-            <img src={printerIcon} />
+            <img alt='' src={printerIcon} />
             <span className='text-white'>Print</span>
         </div>
     </div>
